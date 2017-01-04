@@ -1,6 +1,6 @@
 # hubISM
 This is a open source android project for Hackfest 2017 called "hubISM", which serves as a solution to all the daily life problems of IIT(ISM) students. The app is being made to be usable in even in offline mode. The app follows an open-source approach for further development in addition to what the team does itself. 
-The app would consist of these features - 
+The app would consist of these features -
 
 1.Detailed map of IIT(ISM) Dhanbad including all the departments , lecture halls , event locations , labs &amp; places of interest.  
 2.Detailed timetable for all the courses. (Currently for only first year)  
