@@ -9,10 +9,10 @@ The app would consist of these features -
 6.Clubs - this featute consist of a brief introduction of every presently active club in IIT(ISM) Dhanbad with thier logos (Further plan is to include posts made on their Facebook page available at a single place will be known as "Club Feed").
 
 Steps to contribute to this project -
-1.Fork this repository to your GitHub account.
-2.Copy the URL of the forked repository and paste in place of [url] & do '''git clone [url]'''
-3.You can now open the newly cloned repository folder in Android studio to make any changes.
-4.Open the git bash to the clone repository directory.
-5.After making changes do '''git add -a''' & '''git commit -a -m "your commit message"'''.
-6.Then do '''git push'''.
+1.Fork this repository to your GitHub account.<br />
+2.Copy the URL of the forked repository and paste in place of [url] & do '''git clone [url]'''.<br />
+3.You can now open the newly cloned repository folder in Android studio to make any changes.<br />
+4.Open the git bash to the clone repository directory.<br />
+5.After making changes do '''git add -a''' & '''git commit -a -m "your commit message"'''.<br />
+6.Then do '''git push'''.<br />
 7.Add the original repository source to upstream and do a '''git fetch''' daily to get updates from other contributers.
