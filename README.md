@@ -9,12 +9,12 @@ The app would consist of these features -
 <b>6.</b>Clubs - this featute consist of a brief introduction of every presently active club in IIT(ISM) Dhanbad with thier logos (Further plan is to include posts made on their Facebook page available at a single place will be known as "Club Feed").
 
 <b>Steps to contribute to this project -</b><br /><br />
-<b>1.</b>Fork this repository to your GitHub account.<br />
-<b>2.</b>Copy the URL of the forked repository and paste in place of [url] & do ```git clone [url]``` in git bash.<br />
-<b>3.</b>Now open the git bash into newly cloned repository folder.<br />
-<b>4.</b>Now to gain access to the original repository do ```git remote -v``` to see the status , ```git remote add upstream [url]``` & finally again ```git remote -v``` to see the updated status.<br />
-<b>5.</b>Now open the newly cloned repository folder in Android studio to make any changes.<br />
-<b>6.</b>Open the git bash to the cloned repository directory.<br />
-<b>7.</b>After making changes do ```git add -a``` & ```git commit -a -m "your commit message"```.<br />
-<b>8.</b>Then do ```git push```.<br />
-<b>9.</b>Add the original repository source to upstream and do a ```git fetch origin master``` whenever there is a need to get updates from other contributers.
+<b>1.</b>Firstly, Fork this repository to your GitHub account.<br />
+<b>2.</b>Next, Copy the URL of the forked repository and paste in place of [url] & do ```git clone [url]``` in git bash.<br />
+<b>3.</b>Then, Open the git bash into newly cloned repository folder.<br />
+<b>4.</b>Next, To gain access to the original repository do ```git remote -v``` to see the status , ```git remote add upstream [url]``` & finally again ```git remote -v``` to see the updated status.<br />
+<b>5.</b>Then, open the newly cloned repository folder in Android studio to make any changes.<br />
+<b>6.</b>Next, Open the git bash to the cloned repository directory.<br />
+<b>7.</b>Then, After making changes do ```git add -a``` & ```git commit -a -m "your commit message"```.<br />
+<b>8.</b>Next, do ```git push```.<br />
+<b>9.</b>Then, Add the original repository source to upstream to do a ```git fetch origin master``` whenever there is a need to get updates from other contributers.
