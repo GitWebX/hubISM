@@ -17,4 +17,4 @@ The app would consist of these features -
 <b>6.</b>Next, Open the git bash to the cloned repository directory.<br />
 <b>7.</b>Then, After making changes do ```git add -a``` & ```git commit -a -m "your commit message"```.<br />
 <b>8.</b>Next, do ```git push```.<br />
-<b>9.</b>Then, Add the original repository source to upstream to do a ```git fetch origin master``` whenever there is a need to get updates from other contributers.
+<b>9.</b>Finally, Add the original repository source to upstream to do a ```git fetch origin master``` whenever there is a need to get updates from other contributers.
