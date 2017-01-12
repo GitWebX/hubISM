@@ -8,7 +8,7 @@ The app would consist of these features -
 4.MIS hyperlink to directly access features such as attendence, grade sheet (Currently will open in external browser window)  5.Academic calender will include all the vacations, exam dates &amp; other important dates.  
 6.Clubs - this featute consist of a brief introduction of every presently active club in IIT(ISM) Dhanbad with thier logos (Further plan is to include posts made on their Facebook page available at a single place will be known as "Club Feed").
 
-Steps to contribute to this project -
+Steps to contribute to this project -<br />
 1.Fork this repository to your GitHub account.<br />
 2.Copy the URL of the forked repository and paste in place of [url] & do '''git clone [url]'''.<br />
 3.You can now open the newly cloned repository folder in Android studio to make any changes.<br />
