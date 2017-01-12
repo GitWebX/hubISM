@@ -22,6 +22,6 @@ The app would consist of these features -
 <b>10.</b>Finally, Add the original repository source to upstream to do a ```git fetch origin master``` whenever there is a need to get updates from other contributers.
 
 Further resources - <br />
-<b>1.</b>```https://help.github.com/articles/fork-a-repo/```
-<b>2.</b>```https://help.github.com/articles/syncing-a-fork/```
+<b>1.</b>```https://help.github.com/articles/fork-a-repo/```<br />
+<b>2.</b>```https://help.github.com/articles/syncing-a-fork/```<br />
 <b>3.</b>```https://help.github.com/articles/creating-a-pull-request/```
