@@ -1,4 +1,4 @@
-# <center>hubISM</center>
+# <c>hubISM</c>
 This is a open source android project for Hackfest 2017 called "hubISM", which serves as a solution to all the daily life problems of IIT(ISM) students. The app is being made to be usable in even in offline mode. The app follows an open-source approach for further development in addition to what the team does itself. 
 The app would consist of these features -
 
@@ -8,7 +8,7 @@ The app would consist of these features -
 <b>4.</b>MIS hyperlink to directly access features such as attendence, grade sheet (Currently will open in external browser window) <b>5.</b>Academic calender will include all the vacations, exam dates &amp; other important dates.  
 <b>6.</b>Clubs - this featute consist of a brief introduction of every presently active club in IIT(ISM) Dhanbad with thier logos (Further plan is to include posts made on their Facebook page available at a single place will be known as "Club Feed").
 
-<center><b>Steps to contribute to this project </b></center><br />
+<c><b>Steps to contribute to this project -</b></c><br /><br />
 <b>1.</b>Fork this repository to your GitHub account.<br />
 <b>2.</b>Copy the URL of the forked repository and paste in place of [url] & do ```git clone [url]``` in git bash.<br />
 <b>3.</b>Now open the newly cloned repository folder.<br />
