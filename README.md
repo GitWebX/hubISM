@@ -10,9 +10,9 @@ The app would consist of these features -
 
 Steps to contribute to this project -<br />
 1.Fork this repository to your GitHub account.<br />
-2.Copy the URL of the forked repository and paste in place of [url] & do '''git clone [url]''' in git bash.<br />
+2.Copy the URL of the forked repository and paste in place of [url] & do ```git clone [url]'``` in git bash.<br />
 3.You can now open the newly cloned repository folder in Android studio to make any changes.<br />
 4.Open the git bash to the cloned repository directory.<br />
-5.After making changes do '''git add -a''' & '''git commit -a -m "your commit message"'''.<br />
-6.Then do '''git push'''.<br />
+5.After making changes do ```git add -a``` & ```git commit -a -m "your commit message"```.<br />
+6.Then do ```git push```.<br />
 7.Add the original repository source to upstream and do a '''git fetch''' daily to get updates from other contributers.
