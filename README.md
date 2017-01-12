@@ -20,3 +20,8 @@ The app would consist of these features -
 <b>8.</b>Next, do ```git push```.<br />
 <b>9.</b>Then, to request the owner of the original repository to reflect your changes on the repository Goto your version of repository at Github.com on Web and click on "New pull request" & Open a pull request with proper message.<br />
 <b>10.</b>Finally, Add the original repository source to upstream to do a ```git fetch origin master``` whenever there is a need to get updates from other contributers.
+
+Further resources - <br />
+<b>1.</b>```https://help.github.com/articles/fork-a-repo/```
+<b>2.</b>```https://help.github.com/articles/syncing-a-fork/```
+<b>3.</b>```https://help.github.com/articles/creating-a-pull-request/```
