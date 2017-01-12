@@ -5,7 +5,7 @@ The app would consist of these features -
 <b>1.</b>Detailed map of IIT(ISM) including all the departments , lecture halls , event locations , labs , places of interest etc.
 <b>2.</b>Detailed timetable for all the courses. (Currently for only first year students)  
 <b>3.</b>Contacts containing photo &amp; contact details of all the faculty and other important persons of IIT(ISM).  
-<b>4.</b>MIS hyperlink to directly access features such as attendence, grade sheet etc. (Currently opens in external browser window)
+<b>4.</b>MIS hyperlink to directly access features such as attendence, grade sheet etc. (Currently opens in external browser window)<br />
 <b>5.</b>Academic calender including all the vacations, exam dates &amp; other important dates.  
 <b>6.</b>Clubs - this featute consists of a brief introduction of every presently active club in IIT(ISM) Dhanbad with their logos (Further plan is to include posts made on their facebook page available at a single place will be known as "Club Feed").
 
