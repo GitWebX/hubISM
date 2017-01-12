@@ -15,4 +15,4 @@ Steps to contribute to this project -<br />
 4.Open the git bash to the cloned repository directory.<br />
 5.After making changes do ```git add -a``` & ```git commit -a -m "your commit message"```.<br />
 6.Then do ```git push```.<br />
-7.Add the original repository source to upstream and do a '''git fetch''' daily to get updates from other contributers.
+7.Add the original repository source to upstream and do a ```git fetch origin master``` daily to get updates from other contributers.
