@@ -1,4 +1,4 @@
-# hubISMa
+# hubISM
 This is an open source android project for Hackfest 2017 called "hubISM", which serves as a solution to all the daily life problems of IIT(ISM) students. The app is being developed to be usable in even offline mode. The app follows an open-source approach for further development, in addition to what the team does itself. 
 The app would consist of these features -
 
@@ -20,8 +20,8 @@ The app would consist of these features -
 <b>8.</b>Next, Open the git bash to the cloned repository directory.<br />
 <b>9.</b>Then, As changes have been made do ```git add -a``` , ```git commit -a -m "your commit message"``` & ```git push```.<br />
 <b>10.</b>Then, To request the owner of the original repository to reflect your changes on the repository Goto your version of repository at Github.com on Web and click on "New pull request" & Open a pull request with proper message.<br />
-<b>11.</b>Next, Do ```git fetch origin master``` whenever there is a need to get updates from other contributers.<br />
-<b>12.</b>Finally, Do a ```git status``` to see files modified , added or deleted & ```git add -A``` , ```git commit -a -m "Commit message"``` , ```git push``` & ```git pull``` to add the updates to the locally cloned copy of the repository.
+<b>11.</b>Next, Do ```git fetch upstream master``` whenever there is a need to see updates to the original repository by other contributers.<br />
+<b>12.</b>Finally, Do a ```git pull upstream master``` to pull changes like modifications , additions or deletions.<br />
 
 <b>Further resources -</b><br /><br />
 <b>1.</b>```https://help.github.com/articles/fork-a-repo/```<br />
