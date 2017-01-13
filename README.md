@@ -1,4 +1,4 @@
-# hubISM
+# hubISMa
 This is an open source android project for Hackfest 2017 called "hubISM", which serves as a solution to all the daily life problems of IIT(ISM) students. The app is being developed to be usable in even offline mode. The app follows an open-source approach for further development, in addition to what the team does itself. 
 The app would consist of these features -
 
