@@ -12,9 +12,9 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_food"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/UserGroups"
             android:layout_marginBottom="20dp"/>
 
         <android.support.v7.widget.CardView
@@ -24,9 +24,9 @@
             android:background="#ffffff"
             android:layout_gravity="center"
             android:layout_width="350dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="20dp"
             android:elevation="50dp"
-            android:layout_height="150dp"
+            android:layout_height="200dp"
             card_view:cardCornerRadius="4dp">
 
 
@@ -34,7 +34,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/slide_1_title"
+            android:text="Clubs & Societies"
             android:textColor="#f64c73"
             android:layout_margin="30dp"
            android:layout_gravity="center|top"
@@ -48,7 +48,7 @@
 
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide_1_desc"
+            android:text="Find Info About All The Active Clubs Of IIT(ISM) Dhanbad"
             android:textAlignment="center"
             android:textColor="#f64c73"
             android:textSize="@dimen/slide_desc" />
