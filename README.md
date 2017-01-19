@@ -9,7 +9,7 @@ The app would consist of these features -
 <b>5.</b>Academic calender including all the vacations, exam dates &amp; other important dates.  
 <b>6.</b>Clubs - this featute consists of a brief introduction of every presently active club in IIT(ISM) Dhanbad with their logos (Further plan is to include posts made on their facebook page available at a single place will be known as "Club Feed").
 
-<b>Steps for contributing to this project -</b><br /><br />
+<b>Steps for contributing to this project (HTTPS Method) -</b><br /><br />
 <b>1.</b>Firstly, Download & install git onto the system.<br />
 <b>2.</b>Next, Fork this repository to your GitHub account.<br />
 <b>3.</b>Then, Copy the URL of the forked repository and paste in place of [url] & do ```git clone [url]``` in git bash opened at the location where the repository is to be locally cloned.<br />
