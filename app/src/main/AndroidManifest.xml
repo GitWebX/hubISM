@@ -2,11 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.gitwebx.hubism">
 
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
-    -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -18,6 +13,7 @@
         <activity
             android:name=".MainFrame"
             android:label="@string/app_name"
+<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <!--
@@ -28,12 +24,24 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/. 
         -->
+=======
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+>>>>>>> 9feda869979d2f32972318ee7a044b29f290b860
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
             android:name=".Campus_Map"
+<<<<<<< HEAD
             android:label="@string/title_activity_campus__map" />
         <activity android:name=".Splash_Screen"
 android:theme="@style/AppTheme.NoActionBar"
@@ -52,6 +60,11 @@ android:theme="@style/AppTheme.NoActionBar"
         </activity>
 
 
+=======
+            android:label="@string/title_activity_campus__map"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Splash_Screen" android:screenOrientation="portrait"></activity>
+>>>>>>> 9feda869979d2f32972318ee7a044b29f290b860
     </application>
 
 </manifest>
