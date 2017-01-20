@@ -18,13 +18,8 @@
         <activity
             android:name=".MainFrame"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -40,7 +35,23 @@
         <activity
             android:name=".Campus_Map"
             android:label="@string/title_activity_campus__map" />
-        <activity android:name=".Splash_Screen"></activity>
+        <activity android:name=".Splash_Screen"
+android:theme="@style/AppTheme.NoActionBar"
+            >
+
+        </activity>
+        <activity android:name=".Welcome_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>
