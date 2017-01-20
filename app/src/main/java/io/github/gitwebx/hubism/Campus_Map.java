@@ -37,7 +37,7 @@ public class Campus_Map extends FragmentActivity implements OnMapReadyCallback {
     public void onSearch(View view) {
         EditText location_tf = (EditText) findViewById(R.id.TFaddress);
         String location = location_tf.getText().toString();
-        list<Address> addresslist = null;
+        List <android.location.Address> addressList = null;
         if (location != null || !location.equals(' ')) {
             Geocoder geocoder = new Geocoder(this);
             try {
@@ -46,8 +46,8 @@ public class Campus_Map extends FragmentActivity implements OnMapReadyCallback {
                 e.printStackTrace();
             }
 
-            Address address = addressList.get(0);
-            LatLng latlng = new LatLng(address.getLatitude , address.getLongitude);
+            android.location.Address address = addressList.get(0);
+            LatLng latlng = new LatLng(address.getLatitude() , address.getLongitude());
             mMap.addMarker(new MarkerOptions().position(latlng).title("Marker"));
             mMap.animateCamera(CameraUpdateFactory.newLatLng(latlng));
         }
