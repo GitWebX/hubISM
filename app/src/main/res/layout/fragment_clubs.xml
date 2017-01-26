@@ -1,0 +1,781 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.gitwebx.hubiitism.clubs">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album3"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="E-Cell of IIT(ISM) promotes  entrepreneurship among ISMites and tries its best to provide them with necessary resources. So if you have innovative ideas in your mind, then the E-CELL fraternity is the place for you."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="   E CELL GENESIS"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/textView4" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album5"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Cyber labs is an initiative of the Cyber Society of IIT(ISM) which aims to inculcate real-time problem solving skills through computing and programming. It is a society where you'll find all the code blooded nerds discovering opportunities in the numerous fields of computing."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="        CYBER LABS"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album6"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="AIESEC is a paid, international non-governmental not-for-profit organization that provides young people with leadership development and cross cultural global internships and volunteer exchange experiences across the globe."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="              AIESEC"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album15"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Fotofreaks is the photography club of IIT(ISM) Dhanbad. Photography has little to do with things you see, and everything to do with the way you see them.This club consists of photography enthusiasts who believe in the saying 'Vision makes the difference'."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="        FOTOFREAKS"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album14"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="LITERARY CLUB, LITC, a blend of avid readers, funny writers, excellent speakers, fantastic debaters, lovely poets, amazing bloggers, loony comedians and many, aims at fostering a love for books and novels, languages and literature, ideas and thoughts."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="                LITC"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album4"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Legends in the making, the dance club in IIT(ISM) Dhanbad, provides a platform to express oneself through dance. It is a very active club, it regularly participates in various fests in IIT(ISM) and other colleges."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="               LITM"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album16"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Toastmasters International is a paid, non-profit educational organisation that operates worldwide for the purpose of helping members improve their communication, public speaking leadership skills."
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TOASTMASTERS INT"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album13"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="For those who want to bring out the various shades of emotions and expression through their acting, Abhay Dramatics Club, popularly known as ADC, is the pelf stage which provides an opportunity to nourish the actor inside."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ABHAY DRAMATICS"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album10"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="For all the budding musicians in IIT(ISM), 'Manthan', the music society, is the platform through which they can pursue their passion and develop themselves professionally levels under excellent guidance any facilities."
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="      MANTHAN"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Ever dreamt of a personal robot which follows whateveryou  say? It takes nerves to create a robot out of a heap of wires, breadboards, motors and batteries. But for these guys, it's their passion. Robotics club organises workshops on building manual and automated robots and helps you prepare for the national robo-expo."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="   ROBOTICS CLUB"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album9"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Kartavya is a registered NGO which envisions to equip children of slums and villages with education and other facilities needed to have an empowered life. Initiated in 1999, Kartavya is envisioned to uplift the marginalised citizenry by providing quality tuitions, computer education training for women and by organising regular health check-up camps."
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="      KARTAVYA"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album2"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="FAST FORWARD INDIA, aims to find creative and powerful ways to tackle problems that impact the lives of millions of underprivileged people. It has four sub-chapters under it: BLOODLINE- deals with cases of blood shortage by organising blood donation camps, JAGRITI- imparts basic computer education, DISHA-focuses on career counselling sessions, ESCAPE- helps slum children learn English and aids them in personal development."
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="             FFI"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="500dp"
+                        android:layout_margin="10dp"
+                        android:elevation="5dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="150dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/album8"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="202dp"
+                            android:gravity="bottom"
+                            android:text="Samitra is a voluntary organisation primarily working to provide basic amenities to the poor in order to uplift their living standards. It came into existence in 2015 and operates projects like: ANNAPURNA- provides food to the needy with the slogan 'Help us feed those in need' and 'PARIVESH'- distributes clothes for charity, cleanliness drive."
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="          SAMITRA"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="165dp"
+                            />
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:layout_marginTop="185dp"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            android:text="Fb Page"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </android.support.v7.widget.CardView>
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>

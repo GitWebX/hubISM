@@ -1,0 +1,2910 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="io.github.gitwebx.hubiitism.DashBoard">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                        <!-- TODO: Update blank fragment layout -->
+
+                        <ScrollView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/dt"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5201"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof D.C.Panigrahi"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Director"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/cman" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts: cman@ismdhanbad.ac.in"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. D. D. Misra "
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Chairman"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/mk"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5202"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Col.(Retd.)M.K.Singh"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Registrar"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/dac" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5213"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. S. Mohanty"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Academic Dean"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/dfp"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5204"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. S. K. Paul"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Faculty Dean"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/dinfra" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5437"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. J.K. Pattanayak"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Infrastructure Dean"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/diraa"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5445"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. V.M.S.R. Murthy"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="IRAA Dean"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/drd" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5203"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. Vishnu Priye"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="RnD Dean"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/dsw"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5205"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. Jairam Manam"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="DSW"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/asd" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-9431711004"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. G. N. Singh"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Associate Dean (HM)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/pkj"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-9431126447"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. P. K. Jana"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="CHW-I"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/chwq" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-9431914215"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. R. Chatterjee"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="CHW-II"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/chw3"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-9431711020"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. P. K. Khan"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="CHW-III"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/w1" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-9471191640"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Rashmi Madhuri"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Warden (Opal Hostel)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/w2"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-9471191829"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Sushila Maheshkar"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Warden (Opal Hostel)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/w16" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-9471191438"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Sukanta Das"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Warden (Jasper A)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/w17"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-9471191119"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Badam S Kushwaha"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Warden (Jasper A)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/w2x" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-9572159264"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Abhishek Kr. Singh"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Warden (Jasper D)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/w2y"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-9430351330"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Vivek Bajpai"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="Warden (Jasper D)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/ddp" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5461"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. D. D. Pathak"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (App Chemistry)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/agl"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5271"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. D. K. Asthana"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Applied Geology)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/agp" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-229-6618"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof.  P. R. Mohanty"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (App Geophysics)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/am"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5230"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. Shishir Gupta"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (App Maths)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/ap" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5282"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. AK Nirala"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (App Physics)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/chem"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5455"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. I. M. Mishra"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Chem Engg)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/civ" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5289"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. S.C. Dutta"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Civil Engg)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/cse"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-229-6621"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr.Chiranjeev Kumar"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (CSE)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/hodee" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5451"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. PK Sadhu"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Elec Engg"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/ei"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-220-6866"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. D Mitra"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Electronics)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/ese" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-229-6624"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. AK Singh"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (ESE)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/fme"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-229-6626"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. Nikkam Suresh"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (F&amp;M Engg)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/hss" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-229-6627"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Dr. Md. M Rahman"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (H&amp;S Sciences)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/ms"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-229-6631"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. P. Pathak"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Mgmt Studies)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/hod" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5275"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. Randip K. Das"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Mech Engg)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/mme"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5443"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. AK M.padhyay"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (MME)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/vsm" />
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts :+91-326-223-5279"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. V.M.S.R. Murthy"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Mining Engg"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:layout_below="@+id/textView3"
+                                                    android:layout_alignRight="@+id/imageView2"
+                                                    android:layout_alignEnd="@+id/imageView2" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <android.support.v7.widget.CardView
+                                            android:layout_width="160dp"
+                                            android:layout_height="243dp"
+                                            android:layout_margin="10dp"
+                                            android:elevation="5dp"
+                                            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                                            <RelativeLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <ImageView
+                                                    android:layout_width="150dp"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_height="150dp"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:clickable="true"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/petro"/>
+
+
+
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="@dimen/songs_count"
+                                                    android:layout_marginTop="202dp"
+                                                    android:gravity="bottom"
+                                                    android:text="Contacts:+91-326-223-5280"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                                <TextView
+                                                    android:textStyle="bold"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Prof. V. P. Sharma"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:textColor="@color/album_title"
+                                                    android:textSize="@dimen/album_title"
+                                                    android:layout_marginTop="165dp"
+                                                    />
+                                                <TextView
+                                                    android:layout_width="200dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                                                    android:paddingLeft="@dimen/album_title_padding"
+                                                    android:paddingRight="@dimen/album_title_padding"
+                                                    android:textSize="14dp"
+                                                    android:layout_marginTop="185dp"
+                                                    android:gravity="bottom"
+                                                    android:textStyle="bold"
+                                                    android:text="HOD (Petro Engg)"
+
+                                                    android:layout_alignParentTop="true"
+                                                    android:layout_centerHorizontal="true" />
+
+                                            </RelativeLayout>
+
+                                        </android.support.v7.widget.CardView>
+
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </ScrollView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</FrameLayout>

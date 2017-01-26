@@ -1,0 +1,353 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#dad5d5"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="io.github.gitwebx.hubiitism.mis">
+
+
+
+<!-- TODO: Update blank fragment layout -->
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="105dp" >
+
+
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Abhinav Bajpai"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: CSE"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="108dp"
+            android:src="@drawable/abhi"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView2" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="105dp"
+        android:layout_height="105dp"
+        android:layout_margin="5dp"
+        >
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="108dp"
+            android:src="@drawable/shubh"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView3" />
+        <TextView
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:text="Shubham Vishwakarma"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: CSE"
+            android:textColor="#595858"
+
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+
+
+            android:textSize="20sp"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="315dp"
+        android:layout_margin="5dp"
+
+        android:layout_height="105dp" >
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="108dp"
+            android:src="@drawable/navneet"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView5" />
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Navneet Das"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: EE"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="210dp"
+        android:layout_margin="5dp"
+
+        android:layout_height="105dp" >
+
+        <ImageView
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/debrup"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView6" />
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Debrup Datta"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: EiE"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="420dp"
+        android:layout_margin="5dp"
+
+        android:layout_height="105dp" >
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="108dp"
+            android:src="@drawable/bhamore"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView7" />
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Harsh Bhamore"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: Chemical"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="30dp"
+        android:text="Contributors:"
+        android:textSize="20sp"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="575dp"
+        android:layout_margin="5dp"
+
+        android:layout_height="105dp" >
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="108dp"
+            android:src="@drawable/prashil"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView8" />
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Prashil Randive"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: Petroleum"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="684dp"
+        android:layout_margin="5dp"
+
+        android:layout_height="129dp" >
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="108dp"
+            android:src="@drawable/shanu"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/imageView0" />
+        <TextView
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Sanu Raj"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="135dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="Branch: Mechanical"
+            android:textColor="#595858"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+

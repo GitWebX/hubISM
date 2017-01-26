@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/aboutus"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mis"
+        android:orderInCategory="100"
+        android:title="Visit MIS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/abt"
+        android:orderInCategory="100"
+        android:title="About College"
+        app:showAsAction="never" />
+</menu>

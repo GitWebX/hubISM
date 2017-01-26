@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dashboard"
+            android:icon="@drawable/home"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/Club"
+            android:icon="@drawable/clb"
+            android:title="Clubs &amp; Social" />
+        <item
+            android:id="@+id/Map"
+            android:icon="@drawable/placeholder"
+            android:title="Campus Map" />
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="Staff List">
+        <menu>
+            <item
+                android:id="@+id/Contacts"
+                android:icon="@drawable/ct2"
+                android:title="Contacts" />
+            <item
+                android:id="@+id/Admi"
+                android:icon="@drawable/dep"
+
+                android:title="Administrators" />
+
+
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+
+    <item android:title="Contribute">
+        <menu>
+            <item
+                android:id="@+id/rep_bug"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Report Bug" />
+
+        </menu>
+    </item>
+    </group>
+
+</menu>

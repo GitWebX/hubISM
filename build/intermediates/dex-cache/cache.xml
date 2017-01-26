@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_8fcf0ea1fa7cd2c1c4603963b1c1a0a87267ff93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_3137851f2ab62d6f053792182341031f415850a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_d9e429809766fb226c97c4eabd59256fb788c64c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.nightonke\boommenu\2.0.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5288cc5f71a7ddec084ab371c428afa04a228407">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.nightonke-boommenu-2.0.6_27a25a99f7529dc981345f1e2e79421f9592fa8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_40fc4da021f7c4038eccbd54e78fa38f2261d769\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_a98c9a4ccafe974196a3647c43f3bd743ff9ff8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_f7a4f6e878e63cf0d723eb576f895371f45765e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_bff8668cccc6a60eaaa72825e7ffa8fc6442c27b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_848293d266a12bc22edec7da4885eaa6c8bbf9bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_8f76fad23e940aa98ce652e612e108bb49d90d6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_9a333130ff4bb27d3798bc5264df40529f1f5bc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_14098ea3dcadb12052f62da124b61fb2c5c15c78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_2cd5715e14f48b7963ac7bae4e2ec9ef1ee55dec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_080fa8cf4a38d110b9768d62677ca2e3faf65557\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_2f3fc06f4ec46f0bed99d8e317c802e74265605e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_d3505a2f86cba4e26f5f7247409b51a047258818\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_52be02425f3fc63f40dd5451e1f5521851110a44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_54de5bf0cb7cf104a2f8bb200199e2c4122ed82d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_0159dc86eff520ca5f4c96849ebd8effbd89115b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_dbddae548b514f3689b8e4daafe8f0c831f8abea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_7d96bcde9b22e6b626a4fb8744e041e3a5232308\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_eb8bf38d86f77787bdb28e31af2048f65ae12ba3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_8d55dcc22ef1930c43ecfd638ebecb0feae36a1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_96126707b3266280c9947b3c5ee4d1c23a64ae41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="L:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_794d6b61dc11f17c745b1dc37f0795f9f7adff9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_19528f2451e65fe22d181884bc69108aa749020c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_120a5b0c7b88ae44909a49535f9a11f8c6661dcd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_00a40b3813e801e9d183dc365180b1cabe9d7d3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a6b765967c8091ebb45f2c02972a2fa9cba5dd87">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.chrisbanes-PhotoView-1.3.1_72a4fe365486dba2f15cfcf11c2f5b8a3132554f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_69f59ffda083ffa727b51e58759aaed884a08ce3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.0_a51e29c373c40b0b52600ec6e9251be0cedfc238\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_b8d58fb7a4f8a19c4b4e0b458e07082031aca05d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_c0e430182c5799618db29e9003ba26cb2241ea7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_6d4790f7b93b729df51468c790be95139e56a078\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_e830ce2c2ee5af65a9d89ce638358f2a16c1c0db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_0a49d36b2c514eae1c7b80647489dda958a4e8f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_6c4f3dbae85f0f1545987432bfd3db16df369bb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_2901546ef7773b29589d41d078df1b936a8e1a9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Abhinav\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_3d01ed650d3e477f2f4e801dcc125b5bc25c03b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_641944960961f93d04d794f65c4295bf75b89b5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_89138f40f8d76e83c8b8b3f613a4afecc3509b69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_ecf594a1d7ae2a85b506017088a46724f0b257ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_f96d9a10ec8d17cdf217ddce35dd8fb40f80fc6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="424077ffff345076d308d54ecda47bedef989002">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d6188c0478502c7cab8f28188fcc69f11cfc1f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_6ded12dc0b583bbac7e27c7289f81bfec779befd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_f9c23c688bcc8ef10cfd4378d92aa588100ad6b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.oguzdev-CircularFloatingActionMenu-1.0.2_a7d09b1d4b557f7cdf77bb6de0d7f7aae60b5caf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.balysv\material-ripple\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c733e9d1b065d940a08f2fca0ff920dfc08d94cc">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.balysv-material-ripple-1.0.2_ee9ceb77b5d10f5926c10429b9ed3cd91fbfabd0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_4ccb73b918d079c9fd7d3af547eaae47c3722b60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_7a45e9978d8f93ef254a5260baa7da367eb470ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_4b29156cb6af14f3adbd1f90af5b8f6d86257333\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="446734750c970654ceb0a4569e51f2d79b068bda">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ed4ab2715bf9396f2d9cf3e8415b311f789a1ff3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_922b33c598ab423ef35f76e0c57cf5b85c861674\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_9073088779ea38a13945d860bf8c69c2e9743018\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_40a3c6909975c0f2a750f103202f05aa2c6060b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_14d07a7c866c01c093e0e35dc09afd40ccbf1cbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_562dcdc4f656369c8bc46c9f07bdde8aa1e341bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_9d078f054e68ece62d68b68e407a3fb9c9ff3c27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_3dc1e76eb1e5f0c47502b17fc9eaa32be1061867\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_2bc7a147ae0f4847db13e5c51ad623bf24dfd821\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_7dc904517646406ce1dac5f68e3f33bef0c57e41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_08bd8ab45376964d0f016f1d1f24fcb1f93d8d5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_f9429f23358fdb3801bba4e98805a493693fa1c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_b4ee1b4f7cf66c5d567201a6d1a71ecbd1631be2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_dee814f526c5c257392cff4347d32e2f2cb642c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_c0182480b26f245b226cc810fd57e3da9e5604b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_6c201350a5a1e33382cbf1304999e4245afb90f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_3e551effba3a7f7731e019178116628e038f2b3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_420f46a573f591e0d466f9df31d40d05d4eb91c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_4f790c1805649442f676e8438fe143c479d8a733\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_2ad9f634816e6a2d4912225c124931b3cfc5405e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\HubIIT(ISM)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\HubIIT(ISM)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_18599e4f6a6755e6738777eb345cb37594372481\classes.dex" />
+    </item>
+
+</items>

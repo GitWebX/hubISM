@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#14a895"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#14a895"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#14a895"
+            android:textColorHint="#ffff"
+            android:hint=" Where To?"
+            android:textColor="#ffff"
+            android:ems="10"
+            android:id="@+id/TFaddress" />
+
+        <Button
+            android:text="Search"
+            android:layout_width="133dp"
+            android:textColor="#ffff"
+            android:layout_height="match_parent"
+            android:background="#14a895"
+            android:id="@+id/Bsearch"
+            android:onClick="onSearch" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="534sp"
+        android:background="#14a895"
+        tools:context="io.github.gitwebx.hubiitism.Campus_Map" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="#14a895">
+
+        <Button
+            android:text="Map Type"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="#14a895"
+
+            android:textColor="#ffff"
+            android:id="@+id/Btype"
+            android:onClick="changeType" />
+
+        <Button
+            android:text="+"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:background="#14a895"
+            android:textColor="#ffff"
+            android:id="@+id/Bzoomin"
+            android:onClick="onZoom" />
+
+        <Button
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#ffff"
+            android:layout_height="43dp"
+            android:id="@+id/Bzoomout"
+            android:background="#14a895"
+            android:onClick="onZoom"
+            android:layout_width="98dp" />
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="12dp"
+    android:background="#14a895"
+/>
+</LinearLayout>
