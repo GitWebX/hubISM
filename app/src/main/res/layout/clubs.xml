@@ -2,11 +2,129 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album13"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/adc"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="For those who want to bring out the various shades of emotions and expression through their acting, Abhay Dramatics Club, popularly known as ADC, is the pelf stage which provides an opportunity to nourish the actor inside."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="Abhay Dramatics"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album6"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/aiesec"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="AIESEC is a paid, international non-governmental not-for-profit organization that provides young people with leadership development and cross cultural global internships and volunteer exchange experiences across the globe."/>            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="        AIESEC"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album5"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/foto"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Cyber labs is an initiative of the Cyber Society of IIT(ISM) which aims to inculcate real-time problem solving skills through computing and programming. It is a society where you'll find all the code blooded nerds discovering opportunities in the numerous fields of computing."/>
+
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="     Cyber Labs"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
         <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -22,81 +140,490 @@
                 android:src="@drawable/album3"/>
 
             <TextView
-                android:layout_marginLeft="200dp"
+                android:layout_marginStart="200dp"
                 android:layout_marginTop="70dp"
-                android:text="Name"
-                android:textSize="16dp"
+                android:autoLink="web"
+                android:text="@string/ecell"
+                android:textSize="16sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
                  />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="100dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginBottom="3dp"
                 android:text="E-Cell of IIT(ISM) promotes  entrepreneurship among ISMites and tries its best to provide them with necessary resources. So if you have innovative ideas in your mind, then the E-CELL fraternity is the place for you."
                  />
 
             <TextView
-                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp"
                 android:layout_marginTop="40dp"
-                android:text="E-Cell Genesis"
+                android:text="  E-Cell Genesis"
                 android:textStyle="bold"
-                android:textSize="22dp"
+                android:textSize="22sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                  />
         </android.support.v7.widget.CardView>
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
             android:layout_height="wrap_content">
-            <android.support.v7.widget.CardView
-                android:layout_width="373dp"
-                android:elevation="7dp"
-                android:layout_margin="5dp"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_margin="7dp"
-                    android:src="@drawable/album5"/>
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album15"/>
 
-                <TextView
-                    android:layout_marginLeft="200dp"
-                    android:layout_marginTop="70dp"
-                    android:text="Name"
-                    android:textSize="16dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/cyber"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="100dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginBottom="3dp"
-                    android:text="Cyber labs is an initiative of the Cyber Society of IIT(ISM) which aims to inculcate real-time problem solving skills through computing and programming. It is a society where you'll find all the code blooded nerds discovering opportunities in the numerous fields of computing." android:id="@+id/textView6" />
-
-                <TextView
-                    android:layout_marginLeft="170dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Cyber Labs"
-                    android:textStyle="bold"
-                    android:textSize="22dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-            </android.support.v7.widget.CardView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"></LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"></LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Fotofreaks is the photography club of IIT(ISM) Dhanbad. Photography has little to do with things you see, and everything to do with the way you see them.This club consists of photography enthusiasts who believe in the saying 'Vision makes the difference'."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="     Fotofreaks"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album2"/>
 
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/ffi"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
 
-</LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="FAST FORWARD INDIA, aims to find creative and powerful ways to tackle problems that impact the lives of millions of underprivileged people. It has four sub-chapters under it: BLOODLINE- deals with cases of blood shortage by organising blood donation camps, JAGRITI- imparts basic computer education, DISHA-focuses on career counselling sessions, ESCAPE- helps slum children learn English and aids them in personal development."
+
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="            FFI"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/hub"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/hubism"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="A solution to all the daily life problems of IIT(ISM) students. The app is being made to be usable in even in offline mode. The app follows an open-source approach for further development in addition to what the team does itself."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="      hubISM"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album9"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/kartavya"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Kartavya is a registered NGO which envisions to equip children of slums and villages with education and other facilities needed to have an empowered life. Initiated in 1999, Kartavya is envisioned to uplift the marginalised citizenry by providing quality tuitions, computer education training for women and by organising regular health check-up camps."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="       Kartavya"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album14"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/litc"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="LITERARY CLUB, LITC, a blend of avid readers, funny writers, excellent speakers, fantastic debaters, lovely poets, amazing bloggers, loony comedians and many, aims at fostering a love for books and novels, languages and literature, ideas and thoughts."
+                />
+
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="          LITC"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album4"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/litm"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Legends in the making, the dance club in IIT(ISM) Dhanbad, provides a platform to express oneself through dance. It is a very active club, it regularly participates in various fests in IIT(ISM) and other colleges."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="          LITM"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album12"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/md"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Mailer Daemon, rather MD as it is popularly known, is the in-campus Students' newspaper of IIT(ISM) Dhanbad.         It is a non-profit organisation which aims at bringing the latest developments in the institute to the notice of the students, providing them an appropriate platform to voice their opinion, share their experiences and analyse the campus activities. Mailer Daemon is a symbol of creativity of thoughts and freedom of expression."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="  Mailor Daemon"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album10"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/manthan"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="For all the budding musicians in IIT(ISM), 'Manthan', the music society, is the platform through which they can pursue their passion and develop themselves professionally levels under excellent guidance any facilities."/>
+
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="       Manthan"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album1"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/robo"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Ever dreamt of a personal robot which follows whateveryou  say? It takes nerves to create a robot out of a heap of wires, breadboards, motors and batteries. But for these guys, it's their passion. Robotics club organises workshops on building manual and automated robots and helps you prepare for the national robo-expo."/>
+
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="      RoboISM"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album8"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/samitra"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Samitra is a voluntary organisation primarily working to provide basic amenities to the poor in order to uplift their living standards. It came into existence in 2015 and operates projects like: ANNAPURNA- provides food to the needy with the slogan 'Help us feed those in need' and 'PARIVESH'- distributes clothes for charity, cleanliness drive."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="       Samitra"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="373dp"
+            android:elevation="7dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="7dp"
+                android:src="@drawable/album16"/>
+
+            <TextView
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="70dp"
+                android:text="@string/toast"
+                android:autoLink="web"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
+                android:text="Toastmasters International is a paid, non-profit educational organisation that operates worldwide for the purpose of helping members improve their communication, public speaking leadership skills."/>
+            <TextView
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="40dp"
+                android:text="Toastmasters INT"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </LinearLayout>

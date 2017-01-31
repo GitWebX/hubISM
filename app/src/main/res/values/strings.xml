@@ -16,6 +16,21 @@
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
     <string name="action_settings">Settings</string>
+    <string name="ecell">Facebook <a href="https://www.facebook.com/genesisecell/">Page</a></string>
+    <string name="aiesec">Facebook <a href="https://www.facebook.com/AIESEC.ISMDhanbad/">Page</a></string>
+    <string name="cyber">Facebook <a href="https://www.facebook.com/labscyber/">Page</a></string>
+    <string name="foto">Facebook <a href="https://www.facebook.com/fotofreaks.iit.ism/">Page</a></string>
+    <string name="litc">Facebook <a href="https://www.facebook.com/litcism/">Page</a></string>
+    <string name="litm">Facebook <a href="https://www.facebook.com/LITM.ISM/">Page</a></string>
+    <string name="toast">Facebook <a href="https://www.facebook.com/ISM-Energized-Toastmasters-Club-522616667760500/">Page</a></string>
+    <string name="md">Facebook <a href="https://www.facebook.com/mailerdaemonismdhanbad/">Page</a></string>
+    <string name="hubism">Facebook <a href="https://www.facebook.com/hubIITISM/">Page</a></string>
+    <string name="manthan">Facebook <a href="https://www.facebook.com/manthan.iitism/">Page</a></string>
+    <string name="adc">Facebook <a href="https://www.facebook.com/abhaydramaticsclub/">Page</a></string>
+    <string name="kartavya">Facebook <a href="http://www.facebook.com/kartavya.org/">Page</a></string>
+    <string name="samitra">Facebook <a href="https://www.facebook.com/samitraism/">Page</a></string>
+    <string name="ffi">Facebook <a href="https://www.facebook.com/FastForwardIndia/">Page</a></string>
+    <string name="robo">Facebook <a href="https://www.facebook.com/roboism/">Page</a></string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
