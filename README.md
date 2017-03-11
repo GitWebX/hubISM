@@ -26,7 +26,7 @@
 ><b>11.</b>Next, Do ```git fetch upstream master``` whenever there is a need to see updates to the original repository by other contributers.<br />
 ><b>12.</b>Finally, Do a ```git pull upstream master``` to pull changes like modifications , additions or deletions.<br />
 
-:sparkles: <b>Contributers : </b> @shubham2320 @abhinavbajpai2012 @gitNavV @dranzerblaze @dattadebrup
+:sparkles: <b>Contributers : </b> @shubham2320 @abhinavbajpai2012 @gitNavV @dranzerblaze @dattadebrup @androlover98
 
 :rocket: <b>Further resources -</b><br /><br />
 <b>1.</b>```https://help.github.com/articles/fork-a-repo/```<br />
